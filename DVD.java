@@ -6,11 +6,15 @@ public class DVD extends medium{
         setFullHD(fullHD);
     }
 
+    public void zeigeMedien(){
+        System.out.println(getTitel()+" "+getFsk()+" "+getLaenge());
+    }
+
     public void setFullHD(boolean fullHD) {
         this.fullHD = fullHD;
     }
     public boolean getFullHD(){
         return fullHD;
     }
-    
+
 }

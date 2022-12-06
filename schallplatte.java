@@ -5,6 +5,11 @@ public class schallplatte extends medium{
         super(titel, fsk, laenge);
         setDarfVerliehenWerden(darfVerliehenWerden);
     }
+
+    public void zeigeMedien(){
+        System.out.println(getTitel()+" "+getFsk()+" "+getLaenge());
+    }
+
     public void setDarfVerliehenWerden(boolean darfVerliehenWerden) {
         this.darfVerliehenWerden = darfVerliehenWerden;
     }

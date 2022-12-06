@@ -1,4 +1,4 @@
-public class medium {
+public abstract class medium {
     String titel;
     Integer fsk;
     Integer laenge; //In Minuten
@@ -8,6 +8,8 @@ public class medium {
         setFsk(fsk);
         setLaenge(laenge);
     }
+
+    public abstract void zeigeMedien();
 
     public void setTitel(String titel) {
         this.titel = titel;

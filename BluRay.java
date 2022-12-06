@@ -6,11 +6,15 @@ public class BluRay extends medium{
         setDreidimensional(dreidimensional);
     }
     
+    public void zeigeMedien(){
+        System.out.println(getTitel()+" "+getFsk()+" "+getLaenge());
+    }
+
     public void setDreidimensional(boolean dreidimensional) {
         this.dreidimensional = dreidimensional;
     }
     public boolean getDreidimensional(){
         return dreidimensional;
     }
-    
+
 }

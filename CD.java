@@ -7,6 +7,11 @@ public class CD extends medium{
         setSp(sp);
         setLp(lp);
     }
+
+    public void zeigeMedien(){
+        System.out.println(getTitel()+" "+getFsk()+" "+getLaenge());
+    }
+
     public void setLp(boolean lp) {
         this.lp = lp;
     }
@@ -19,5 +24,5 @@ public class CD extends medium{
     public boolean getSp(){
         return sp;
     }
-    
+
 }
